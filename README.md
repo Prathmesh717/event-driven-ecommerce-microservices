@@ -278,9 +278,11 @@ What do you mean by Topic, Partition and Replication Factor:
 
 **Why 3 Partitions?** This project uses 3 partitions to demonstrate Kafka's partitioning and parallel processing capabilities. Since the setup runs on a single Kafka broker locally, a replication factor of 1 is sufficient for development and learning purposes. <br />
 
-<img width="3576" height="1484" alt="image" src="https://github.com/user-attachments/assets/9f4495bf-1761-48f6-b53a-1ae933cff5de" /> <br />
+<img width="1440" height="520" alt="Image" src="https://github.com/user-attachments/assets/9d94739a-2a5f-476d-9a3b-30817acba69d" /><br />
 
-<img width="3578" height="1294" alt="image" src="https://github.com/user-attachments/assets/3c122bde-7421-4f11-85aa-e450fc8d13d2" />
+<img width="1440" height="444" alt="Image" src="https://github.com/user-attachments/assets/2fa624cd-c4bb-42f4-bf54-f9c6605af432" />
+
+
 
 ### Step 3: Clone Project
 
@@ -339,8 +341,6 @@ Start services in the following order: `mvn spring-boot:run`
 
 **Concept:** Services communicate asynchronously through Kafka events.
 
-<img width="3584" height="2100" alt="image" src="https://github.com/user-attachments/assets/684e0187-af07-4eb6-8032-319acbc911f5" />
-
 ### Step 6: Swagger UI
 * `http://localhost:8081/swagger-ui/index.html`
 * `http://localhost:8085/swagger-ui/index.html`
@@ -364,7 +364,7 @@ POST http://localhost:8081/api/v1/orders
   "amount": 499.99
 }
 ```
-<img width="3582" height="2088" alt="image" src="https://github.com/user-attachments/assets/6623b6be-f4fc-411c-95ae-fd8fe1f5fab2" /> <br />
+<img width="1342" height="747" alt="Image" src="https://github.com/user-attachments/assets/5766fca3-f2cf-46f8-b54d-0445cd0c33b6" /> <br />
 
 Expected Flow
 
@@ -377,13 +377,13 @@ Inventory Reserved
       ↓
 Order Completed
 ```
-<img width="3576" height="1316" alt="image" src="https://github.com/user-attachments/assets/dd8c1463-a23a-4175-9c8a-4990876cd2dd" /> <br />
+<img width="1440" height="484" alt="Image" src="https://github.com/user-attachments/assets/25693907-62bf-42ea-8b97-804046e3b4c5" /> <br />
 
-<img width="3584" height="1584" alt="image" src="https://github.com/user-attachments/assets/93f10833-9335-4af5-a2cb-70fdfe653316" /> <br />
+<img width="1440" height="558" alt="Image" src="https://github.com/user-attachments/assets/2b061b8c-84f4-42d0-9ab4-125ae8ad3a1b" /> <br />
 
-<img width="3584" height="1628" alt="image" src="https://github.com/user-attachments/assets/6cb3ba62-9bd4-4b0a-a3fa-6bc45809f9ee" /> <br />
+<img width="1440" height="576" alt="Image" src="https://github.com/user-attachments/assets/a3b0ff53-d439-47d8-8416-a8a68e53c270" /> <br />
 
-<img width="3584" height="1476" alt="image" src="https://github.com/user-attachments/assets/2d8c1793-ea12-4ac4-a28a-80a393138fd3" /> <br />
+<img width="1012" height="365" alt="Image" src="https://github.com/user-attachments/assets/2bcaee96-19a3-4cf8-ad69-078ece7b49d2" /> <br />
 
 **Verify Order Status**
 
@@ -430,8 +430,7 @@ Expected:
   "cancelledOrders": 0
 }
 ```
-
-<img width="3582" height="1574" alt="image" src="https://github.com/user-attachments/assets/75c29d03-8287-44af-bedd-f368a57dd8be" />
+<img width="1012" height="421" alt="Image" src="https://github.com/user-attachments/assets/5f982f82-2c39-4ae1-9bd3-e21aa8c5b7d6" />
 
 **Concept:** Saga Pattern successful execution path.
 
@@ -451,7 +450,7 @@ Example:
 }
 ```
 
-<img width="3584" height="2062" alt="image" src="https://github.com/user-attachments/assets/0e87b753-52a5-4909-838f-7d2032e722b8" /> <br />
+<img width="1012" height="558" alt="Image" src="https://github.com/user-attachments/assets/12b2adbd-fe5a-4b73-8bdc-81c7db7f93ae" /> <br />
 
 Expected Flow
 
@@ -467,15 +466,18 @@ Payment Refunded
 Order Cancelled
 ```
 
-<img width="3584" height="1332" alt="image" src="https://github.com/user-attachments/assets/85854a48-ea34-47ab-af80-3b43668cd191" /> <br />
+<img width="1012" height="321" alt="Image" src="https://github.com/user-attachments/assets/a180d4bf-cab7-4576-9381-8708420a734d" /> <br />
 
-<img width="3584" height="1682" alt="image" src="https://github.com/user-attachments/assets/55a10e90-e9b2-48d5-ae1c-a4ed1b014aac" /> <br />
+<img width="1012" height="424" alt="Image" src="https://github.com/user-attachments/assets/26be842c-190d-4331-99f3-ed79bebe6a2b" /> <br />
 
-<img width="3584" height="1716" alt="image" src="https://github.com/user-attachments/assets/4285858f-9995-49da-8c6b-6f7b17f449b9" /> <br />
+<img width="1012" height="430" alt="Image" src="https://github.com/user-attachments/assets/49cf79e4-aaf7-49f4-b08b-0046768460cf" /> <br />
 
-<img width="3582" height="1514" alt="image" src="https://github.com/user-attachments/assets/84797677-71e3-4888-84a3-796539c63b88" /> <br />
+<img width="1012" height="373" alt="Image" src="https://github.com/user-attachments/assets/b4239244-0e08-4ca0-b59a-adf057f550a2" /> <br />
 
-<img width="3584" height="1486" alt="image" src="https://github.com/user-attachments/assets/2c670af3-4f10-4c1a-a469-8eaf48881845" /> <br />
+<img width="1012" height="373" alt="Image" src="https://github.com/user-attachments/assets/c9c56ad1-9967-455e-ab4f-ff0934edd2ef" /> <br />
+
+
+
 
 **Verify Order Status**
 
@@ -513,7 +515,7 @@ Expected:
 }
 ```
 
-<img width="3584" height="1574" alt="image" src="https://github.com/user-attachments/assets/0cad2bf1-67b8-4e0d-b1d8-7b6b7956890d" />
+<img width="1006" height="418" alt="Image" src="https://github.com/user-attachments/assets/c42f2121-f755-4f6f-b5fc-29f3d543b46a" />
 
 **Concept:** Saga Pattern compensation flow.
 
@@ -618,13 +620,13 @@ Application continues processing other messages normally
 
 **Concept:** Retry Processing and Dead Letter Topic (DLT) handling improve system resilience by isolating permanently failed events from normal business processing.
 
-<img width="3582" height="2052" alt="image" src="https://github.com/user-attachments/assets/cb2773c7-3c08-4754-a14b-449ba969d32d" /> <br />
+<img width="1006" height="554" alt="Image" src="https://github.com/user-attachments/assets/ba021450-679c-428f-a6cd-0125635d6e8a" />  <br />
 
-<img width="3584" height="1342" alt="image" src="https://github.com/user-attachments/assets/daf011c9-2f8b-49ae-b294-958355075992" /> <br />
+<img width="1006" height="326" alt="Image" src="https://github.com/user-attachments/assets/ac576f23-8c30-45c0-9976-ee984ae7262a" />  <br />
 
-<img width="3582" height="2142" alt="image" src="https://github.com/user-attachments/assets/d00ffd03-87d2-4281-a0cf-da11034c1d29" /> <br />
+<img width="1006" height="551" alt="Image" src="https://github.com/user-attachments/assets/1cd5f2f0-429c-4421-9c8f-b2f165c8456d" />  <br />
 
-<img width="3578" height="1642" alt="image" src="https://github.com/user-attachments/assets/7a89c323-5566-4976-a355-c75aeba819bf" />
+<img width="1006" height="411" alt="Image" src="https://github.com/user-attachments/assets/37470904-78c9-4e2d-985b-dfcae96dec38" />
 
 # Outbox Pattern Verification
 
@@ -1130,7 +1132,7 @@ Reporting is separated from transactional workloads
 
 <img width="2556" height="596" alt="image" src="https://github.com/user-attachments/assets/3569ccbc-646c-4fec-83d8-141ffd69894d" /> <br />
 
-<img width="3584" height="1572" alt="image" src="https://github.com/user-attachments/assets/c372d241-c759-4f25-9bf8-ddb19c7fc8a6" />
+<img width="1006" height="419" alt="Image" src="https://github.com/user-attachments/assets/ca5ccbea-5252-46a5-b28e-3553f0f91262" />
 
 # Summary
 
