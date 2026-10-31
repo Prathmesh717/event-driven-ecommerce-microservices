@@ -252,7 +252,7 @@ Verify containers are running:
 
 **Concept:** Kafka acts as the event broker between microservices.
 
-<img width="2384" height="378" alt="image" src="https://github.com/user-attachments/assets/0ddde89e-3f33-4812-8efe-3d33b9c6f51c""/>
+<img width="2384" height="378" alt="image" src="https://github.com/user-attachments/assets/0ddde89e-3f33-4812-8efe-3d33b9c6f51c"/>
 ### Step 2: Create Kafka Topics
 
 Open Kafka UI and create the following topics: `http://localhost:8080`
